@@ -1,0 +1,86 @@
+
+* {
+  background: #eee;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* paragraph styles */
+p {
+  font-family: Arial, sans-serif;
+}
+
+/* navbar styles */
+nav {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 4em;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
+}
+
+/* sign-in class styles */
+.sign-in {
+  background: #fff;
+  border: 1px solid blue;
+  color: blue;
+  display: inline;
+  height: 2.25em;
+  padding: 0.5em;
+}
+
+/* search class */
+.search {
+  color: gray;
+  height: 2em;
+  padding-left: 0.5em;
+  width: 20em;
+}
+
+/* main styles */
+main {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 7.5em 0 0 15em;
+}
+
+figure {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+/* sidebar styles */
+aside {
+  display: inline-block;
+  float: right;
+  margin-top: 2.5em;
+}
+
+aside p {
+  margin-bottom: 1.5em;
+}
+
+/* thumbnail mockups */
+.preview {
+  margin: 0 10em 2.5em 0;
+}
+
+.preview-img {
+  background: #333;
+  color: #fff;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  height: 6em;
+  padding-top: 2.5em;
+  text-align: center;
+  width: 12em;
+}
+
+.preview-text {
+  display: inline-block;
+  margin-left: 1em;
+  vertical-align: top;
+}
